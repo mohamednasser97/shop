@@ -1,6 +1,14 @@
 .carousel-item img{
     height: 100vh;
 }
+.scroller{
+    background-color: rgb(0, 153, 255);
+    z-index: 99999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+}
 .carousel-caption{
     background: rgba(151, 194, 224, .4);
     border-radius: 20px;
